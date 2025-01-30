@@ -1,4 +1,4 @@
-# Flask starter by mrchameleon
+# Flask starter app
 
 Template for a flask app, configured with some essentials
 
