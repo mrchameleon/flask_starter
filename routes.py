@@ -20,7 +20,4 @@ def ping():
 @route_blueprint.route('/post', methods=['POST'])
 def post():
     # the post endpoint just returns back exactly what was sent to it.
-    data = request.json
-    return jsonify(
-        data
-    )
+    return request.data
